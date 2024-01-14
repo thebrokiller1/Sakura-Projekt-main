@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakura Ramen</title>
-</head>
-<body>
     <head>
-        <div class="hero">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sakura Ramen</title>
+    </head>
+    <body>
+        <header>
             <nav>
-                <div class="logo"></div>
+                <div class="img" id="logo"></div>
                 <ul>
-                    <li><a href="MENU">MENU</a></li>
-                    <li><a href="LOCATIONS">LOCATIONS</a></li>
-                    <li><a href="ABOUT">ABOUT</a></li>
-                    <li class="phone">
-                        <img src="./assets/img/1_hero/PNG/phone.png" alt="phone" class="phone_symbol">
-                        <a href="017654564534">017654564534</a>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#locations">LOCATIONS</a></li>
+                    <li><a href="#menu">ABOUT</a></li>
+                    <li>
+                        <a href="#phone">
+                            <div id="phone_image"></div>
+                            <div id="phone_number">017654564534</div>
+                        </a>
                     </li>
                 </ul>
             </nav>
-            <h1>SAKURA RAMEN</h1>
-            <h2>THE BEST RAMEN IN TOWN</h2>
-        </div>
-    </head>
-    <main>
-        <section class="order">
-            <div class="title">How To Order</div>
-            <div class="components">
-                <div class="noodle">
-                    <div class="img"></div>
-                    <div class="text">Pick Your Noodle</div>
+        </header>
+        <main>
+            <section id="welcome">
+                <h1 id="title">SAKURA RAMEN</h1>
+                <h2 id="subtitle">THE BEST RAMEN IN TOWN</h2>
+            </section>
+            <section id="order">
+                <div id="order_title">HOW TO ORDER</div>
+                <div class="order_component">
+                    <div id="order_img_1"></div>
+                    <div class="order_title">Pick your noodle</div>
                 </div>
-                <div class="broth">
-                    <div class="img"></div>
-                    <div class="text">Pick your Broth</div>
+                <div class="order_component">
+                    <div id="order_img_2"></div>
+                    <div class="order_title">Pick your broth</div>
                 </div>
-                <div class="topping">
-                    <div class="img"></div>
-                    <div class="text">Add your toppings</div>
+                <div class="order_component">
+                    <div id="order_img_3"></div>
+                    <div class="order_title">Add your toppings</div>
                 </div>
-            </div>
-        </section>
-    <section class="menu">
-        <div class="title">OUR MENU</div>
-        <div class="menu_1">    
-            <div class="img"></div>
-            <div class="title">Tonkotsu Ramen</div>
-        </div>
-    </section>
-    <section class="findUs"></section>
-</main>
-<footer>
+            </section>
+            <section id="our_menu">
+                <article>
+                    <div id="menu_img_1"></div>
+                    <div class="menu_component"></div>
+                </article>
+            </section>
+        </main>
+        <footer>
 
-</footer>
-</body>
+        </footer>
+    </body>
 </html>
