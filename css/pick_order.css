@@ -1,0 +1,87 @@
+/* Noodle: */
+
+.noodle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+
+.pick_noodle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pick_noodle_img {
+    background-image: url("../assets/img/2_section_how_to_order/PNG/broth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 126px;
+}
+.pick_noodle_text {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Broth: */
+
+.broth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+.pick_broth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pick_broth_img {
+    background-image: url("../assets/img/2_section_how_to_order/PNG/toppings.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 126px;
+}
+.pick_broth_text {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* toppings: */
+
+.toppings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+.pick_toppings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pick_toppings_img {
+    background-image: url("../assets/img/2_section_how_to_order/PNG/toppings.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 126px;
+}
+.pick_toppings_text {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
