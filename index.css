@@ -3,7 +3,7 @@
 }
 body {
     scroll-behavior: smooth;
-    color: #000000;
+    color: white;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -16,7 +16,6 @@ header {
     align-items: center;
     margin: 0;
     height: 100vh;
-    margin-bottom: 120px;
     background-image: url('./assets/img/1_hero/JPG/hero_bg.jpg');
     background-repeat: no-repeat;
     background-position: center ;
@@ -35,8 +34,13 @@ nav {
 }
 
 section {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -46,8 +50,55 @@ ul {
 
 li {
     list-style: none;
-    display: inline;
     padding: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #9F0908;
+}
+
+h2 {
+    margin: 0;
+    color: black;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+dl {
+    display: flex;
+    justify-content: space-between;
+}
+
+dt {
+    color: #675E54;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+dd {
+    color: #675E54;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0A141E;
+    width: 100%;
+    height: 144px;
 }
 
 .container {
@@ -60,7 +111,7 @@ li {
 .img {
     background-repeat: no-repeat;
     background-position: center ;
-    background-size: cover;
+    background-size: contain;
 }
 
 #logo {
@@ -68,6 +119,137 @@ li {
     height: 64px;
     width: 64px;
 }
+
+#welcome {
+    margin-top: 180px;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+#subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.order_title {
+    color: black;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+#order_article {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.order_component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+#order_img_1 {
+    width: 128px;
+    height: 128px;
+    background-image: url('./assets/img/2_section_how_to_order/PNG/noodle.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+}
+
+#order_img_2 {
+    width: 128px;
+    height: 128px;
+    background-image: url('./assets/img/2_section_how_to_order/PNG/broth.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+}
+
+#order_img_3 {
+    width: 128px;
+    height: 128px;
+    background-image: url('./assets/img/2_section_how_to_order/PNG/egg.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+}
+
+#our_menu {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 64px;
+}
+
+#menu_img_1 {
+    width: 352px;
+    height: 352px;
+    background-image: url('./assets/img/3_section_our_menu/Png/R1.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    margin-right: 80px;
+}
+
+#location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+#address {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#footer_left {
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+#footer_right {
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.footer_right_component{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12px
+}
+
 
 
 
