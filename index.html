@@ -19,9 +19,9 @@
                     <li><a href="#locations">LOCATIONS</a></li>
                     <li><a href="#menu">ABOUT</a></li>
                     <li>
-                        <a href="#phone">
-                            <div id="phone_image"></div>
-                            <div id="phone_number">017654564534</div>
+                        <a class="container" style="align-items: center;" href="017654564534">
+                            <img class="img" style="height: 24px; width: 24px;" src="./assets/img/1_hero/PNG/phone.png" alt="phone">
+                            <div style="margin-left: 8px;">017654564534</div>
                         </a>
                     </li>
                 </ul>
@@ -29,8 +29,8 @@
         </header>
         <main>
             <section id="welcome">
-                <h1 id="title">SAKURA RAMEN</h1>
-                <h2 id="subtitle">THE BEST RAMEN IN TOWN</h2>
+                <div id="title">SAKURA RAMEN</div>
+                <div id="subtitle">THE BEST RAMEN IN TOWN</div>
             </section>
             <section id="order">
                 <div id="order_title">HOW TO ORDER</div>
@@ -48,14 +48,39 @@
                 </div>
             </section>
             <section id="our_menu">
+                <h1>OUR MENU</h1>
                 <article>
                     <div id="menu_img_1"></div>
-                    <div class="menu_component"></div>
-                </article>
+                    <div class="menu_component">
+                        <h2>Shio Ramen</h2>
+                        <dl>
+                            <dt>CHICKEN</dt>
+                            <dd>11.95€</dd>
+
+                            <dt>BEEF</dt>
+                            <dd>12.95€</dd>
+
+                            <dt>SHRIMP</dt>
+                            <dd>13.95€</dd>
+                        </dl>
+                    </div>
+                </article>  
+            </section>
+            <section id="find_us">
+                <h1>FIND US AT</h1>
+                <div id="address"></div>
             </section>
         </main>
         <footer>
-
+            <div>
+                <div class="logo"></div>
+                <div>SAKURA RAMEN</div>
+            </div>
+            <div>
+                <div id="tripadvisor"></div>
+                <div id="facebook"></div>
+                <div id="instagram"></div>
+            </div>
         </footer>
     </body>
 </html>
