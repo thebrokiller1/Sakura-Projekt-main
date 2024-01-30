@@ -7,6 +7,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    font-size: 24px;
 }
 
 header {
@@ -61,16 +62,31 @@ h1 {
     margin:0;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 80px;
-    color: #9F0908;
+    font-size: 96px;
+    color: white;
 }
 
 h2 {
     margin: 0;
-    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #9F0908;
+}
+
+h3 {
+    margin: 0;
     font-family: 'Economica', sans-serif;
     font-weight: bold;
     font-size: 56px;
+    color: black;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
 }
 
 dl {
@@ -101,11 +117,19 @@ footer {
     height: 144px;
 }
 
-.container {
+.phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: #9F0908; 
+    border-style: solid; 
+    padding: 5px; 
+    border-radius: 10px;
+}
+
+.phone:hover {
+        background-color: #4b0303; 
 }
 
 .img {
@@ -194,24 +218,21 @@ footer {
     background-size: cover;
 }
 
-#menu {
+.menu {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
     margin-top: 64px;
 }
 
-#menu_img_1 {
+
+.menu_img {
     width: 352px;
     height: 352px;
-    background-image: url('./assets/img/3_section_our_menu/Png/R1.png');
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: contain;
     margin-right: 80px;
 }
+
 
 #location {
     display: flex;
