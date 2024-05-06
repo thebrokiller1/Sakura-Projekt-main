@@ -9,24 +9,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sakura Ramen</title>
+        <link rel="icon" type="image/x-icon" href="./assets/img/1_hero/SVG/sakura_logo.svg">
     </head>
     <body>
         <header>
             <nav>
                 <div class="img" id="logo"></div>
                 <ul>
-                    <li><a href="#our_menu">MENU</a></li>
-                    <li><a href="#find_us">LOCATIONS</a></li>
-                    <li><a href="#footer">ABOUT</a></li>
+                    <li class="hide-mobile"><a href="#our_menu">MENU</a></li>
+                    <li class="hide-mobile"><a href="#location">LOCATIONS</a></li>
+                    <li class="hide-mobile"><a href="#find_us">ABOUT</a></li>
                     <li>
-                        <a class="phone" href="017654564534">
+                        <a class="phone" href="tel:+436503201899">
                             <img class="img" style="height: 24px; width: 24px;" src="./assets/img/1_hero/PNG/phone.png" alt="phone">
                             <div style="margin-left: 8px;">017654564534</div>
                         </a>
                     </li>
                 </ul>
             </nav>
-            <section id="title" style="margin-top: 180px;">
+            <section id="title">
                 <h1>SAKURA RAMEN</h1>
                 <div>THE BEST RAMEN IN TOWN</div>
             </section>
@@ -34,25 +35,25 @@
         <main>
             <section id="order">
                 <h2>HOW TO ORDER</h2>
-                <article style="display: flex; justify-content: space-between; width: 100%; margin-top: 64px;">
+                <article class="order_article">
                     <div class="order_component">
-                        <img style="width: 128px; height: 128px; background-repeat: no-repeat; background-position: center; background-size: contain;" src="./assets/img/2_section_how_to_order/PNG/noodle.png" alt="noodle">
+                        <img class="order_img" src="./assets/img/2_section_how_to_order/PNG/noodle.png" alt="noodle">
                         <h3>Pick your noodle</h3>
                     </div>
                     <div class="order_component">
-                        <img style="width: 128px; height: 128px; background-repeat: no-repeat; background-position: center; background-size: contain;" src="./assets/img/2_section_how_to_order/PNG/broth.png" alt="broth">
+                        <img class="order_img" src="./assets/img/2_section_how_to_order/PNG/broth.png" alt="broth">
                         <h3>Pick your broth</h3>
                     </div>
                     <div class="order_component">
-                        <img style="width: 128px; height: 128px; background-repeat: no-repeat; background-position: center; background-size: contain;" src="./assets/img/2_section_how_to_order/PNG/egg.png" alt="egg">
+                        <img class="order_img" src="./assets/img/2_section_how_to_order/PNG/egg.png" alt="egg">
                         <h3>Add your toppings</h3>
                     </div>
                 </article>
             </section>
             <section id="our_menu">
                 <h2 style="margin-top: 64px; margin-bottom: 64px;">OUR MENU</h2>
-                <article style="flex-direction: row;" class="menu">
-                    <img style="margin-right: 80px; width: 352px; height: 352px;" src="./assets/img/3_section_our_menu/Png/R1.png" alt="menu_img_1">
+                <article class="menu">
+                    <img class="our_menu_bg" src="./assets/img/3_section_our_menu/Png/R1.png" alt="menu_img_1">
                     <div class="menu_component">
                         <h3>Tonkotsu Ramen</h3>
                         <table>
@@ -71,8 +72,8 @@
                         </table>
                     </div>
                 </article>
-                <article style="flex-direction: row-reverse;" class="menu">
-                    <img style="margin-left: 80px; width: 352px; height: 352px;" src="./assets/img/3_section_our_menu/Png/R2.png" alt="menu_img_2">
+                <article class="menu">
+                    <img class="our_menu_bg" src="./assets/img/3_section_our_menu/Png/R2.png" alt="menu_img_2">
                     <div class="menu_component">
                         <h3>Spicy Miso Ramen</h3>
                         <table>
@@ -91,8 +92,8 @@
                         </table>
                     </div>
                 </article>
-                <article style="flex-direction: row; margin-bottom: 64px;" class="menu">
-                    <img style="margin-right: 80px; width: 352px; height: 352px;" src="./assets/img/3_section_our_menu/Png/R1.png" alt="menu_img_1">
+                <article class="menu">
+                    <img class="our_menu_bg" src="./assets/img/3_section_our_menu/Png/R1.png" alt="menu_img_1">
                     <div class="menu_component">
                         <h3>Shio Ramen</h3>
                         <table>
